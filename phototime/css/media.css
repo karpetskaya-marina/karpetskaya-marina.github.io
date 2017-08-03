@@ -1,0 +1,164 @@
+@media only screen and (max-width : 1200px) {
+	.wrapper {
+		width: 90%;
+	}
+	.slide_describe {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width : 992px) {
+	.header_nav li {
+		margin: 0 7px;
+	}
+	.header_nav a {
+		padding: 10px 15px;
+	}
+	.content_text {
+		width: 300px;
+	}
+	.slider_bla .content_text {
+		margin: 0 auto;
+	}
+	.content_item_2 {
+		padding-top: 0;
+	}
+	.content {
+		padding-top: 70px;
+	}
+	.slider_controls {
+		text-align: center;
+	}
+	.content__light .slider_controls {
+		margin-bottom: 30px;
+		text-align: left;
+	}
+	.content__slider .slider_controls {
+		margin-bottom: 10px;
+	}
+	.phone_displays {
+		left: 50%;
+		margin-left: -129px;
+	}
+	.slide_describe {
+		padding-top: 10%;
+	}
+	.subscribe {
+		height: 50vh;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.wrapper {
+		width: 100%;
+	}
+	.content_item_1 .content_text {
+		text-align: center;
+		margin: 0 auto;
+		padding-top: 450px;
+	}
+	.content_item_1 {
+		min-height: 750px;
+		background: url('../img/hand.png') no-repeat 100% 0;
+	}
+	.slide_describe {
+		float: none;
+		margin: 0 auto 30px;
+	}
+	.subscribe_form label {
+		top: 0;
+		left: 100%;
+	}
+	.button.store {
+		width: 40%;
+	}
+	.button.store a {
+		font-size: 12px;
+		padding-left: 15px;
+	}
+	.footer .wrapper {
+		text-align: center;
+	}
+	.footer p {
+		font-size: 10px;
+	}
+	.footer img {
+		float: none;
+		margin-bottom: 20px;
+	}
+	.content__slider .slider_controls {
+		position: absolute;
+		left: 50%;
+		top: 87%;
+		margin-left: -13px;
+	}
+	/**/
+	.header_nav {
+		text-align: center;
+		margin: 0;
+		background-color: rgba(0,0,0,.15);
+	}
+	.header_nav li {
+		display: block;
+		margin: 0;
+		padding: 10px;
+		border-bottom: 2px solid rgba(0,0,0,.3);
+		background-color: rgba(0,0,0,.15);
+	}
+	.header_nav li:hover {
+		background-color: rgba(255,255,255,.0015);
+	}
+	.header_nav ul {
+		display: none;
+	}
+	.header_nav ul li:nth-child(2) {
+		margin: 0;
+	}
+	.header {
+		padding: 0;;
+	}
+	.logo {
+		position: static;
+		margin: 0;
+		background-color: rgba(0,0,0,.15);
+		border-bottom: 2px solid rgba(0,0,0,.3);
+		padding: 10px 0;
+	}
+	.header_nav_item::before, .header_nav_item::after {
+		display: none;
+	}
+	.header_nav_item:hover, .header_nav_item {
+		border: none;
+	}
+	.header_nav_item:hover::before, .header_nav_item:hover::after {
+		width: 0;
+	}
+	.buterbrod {
+		display: block;
+	}
+	/**/
+	.catalog figure {
+		margin: 0 10px;
+	}
+	.content__slider {
+		position: relative;
+	}
+	.phone_mockup {
+		position: relative;
+		left: 50%;
+		margin-left: -157px;
+		margin-bottom: 50px;
+	}
+	.phone_displays {
+		left: 0;
+		margin-left: 28px;
+	}
+	.slider_bla {
+		float: none;
+		text-align: center;
+	}
+	.slider_bla .slider_controls {
+		text-align: center;
+	}
+	.content__slider {
+		padding-top: 0;
+	}
+}

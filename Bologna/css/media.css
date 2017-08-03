@@ -1,0 +1,64 @@
+@media only screen and (max-width : 1200px) {
+    .wrapper {
+        width: 100%;
+    }
+    .column {
+        width: 47%;
+        max-width: 400px;
+        margin-right: 3%;
+    }
+    .aside {
+        margin-left: 25px;
+    }
+    .header_search_wrap {
+        margin-right: 3.6%;
+    }
+    .links {
+        margin-left: 3.6%;
+    }
+    .main_menu li + li {
+        margin-left: 1.5%;
+    }
+}
+                                                            /*на этой точке мне нужно сделать меню-бутерброд*/
+@media only screen and (max-width : 992px) {
+    .aside {
+        width: 240px;
+        margin-left: 10px;
+    }
+    .subscribe_email {
+        margin-bottom: 5px;
+        display: block;
+    }    
+    .subscribe_submit {
+        display: block;
+    }
+    .footer-right ul li + li {
+        margin-left: 15px;
+    }
+    .footer-right {
+        padding-left: 50px;
+    }
+    .footer-left {
+        padding-right: 50px;
+    }
+    .hiro_heading_wrap {
+        top: 65%;
+    }
+    .header_menu_wrap {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .hamburgerIcon {
+        display: block;
+    }
+    .links, .header_search_wrap {
+        float: none;
+    }
+    .header_menu_wrap {
+        max-width: 300px;
+        text-align: left;
+    }
+}
